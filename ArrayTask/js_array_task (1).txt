@@ -1,0 +1,39 @@
+1. Write a function that takes an array of numbers and returns the maximum number in the array.
+
+2. Write a function that takes an array of numbers and returns the minimum number in the array.
+
+3. Write a function that takes an array of numbers and returns the sum of all elements.
+
+4. Write a function that takes an array and returns a new array with elements in reverse order.
+
+5. Write a function that checks if a given value exists in an array.
+
+6. Write a function that counts how many times a specific element appears in an array.
+
+7. Write a function that removes duplicate elements from an array and returns a new array.
+
+8. Write a function that returns the second largest number in an array.
+
+9. Write a function that merges two sorted arrays into a single sorted array.
+
+10. Write a function that rotates an array to the right by k positions.
+
+11. Given an array containing n distinct numbers taken from 0 to n, find the missing number.
+
+12. Write a function that takes an array and a target sum and returns all pairs of numbers that add up to the target.
+
+13. Given two arrays, return a new array containing elements that appear in both arrays (without duplicates).
+
+14. Given an array of integers, find the first element that appears only once.
+
+15. Implement a function to sort an array without using JavaScript’s built-in sort() method.
+
+16. Given an unsorted array of integers, find the length of the longest consecutive sequence of numbers.
+
+17. Given an array of numbers, return an array where each element at index i is the product of all elements except the one at i, without using division.
+
+18. Given an array of positive and negative numbers, rearrange it so that numbers alternate in sign while maintaining relative order.
+
+19. Given an array of integers, find the contiguous subarray (containing at least one number) that has the largest sum and return that sum.
+
+20. Given an array, find the element that appears more than n/2 times (where n is the array length). Assume that such an element always exists.

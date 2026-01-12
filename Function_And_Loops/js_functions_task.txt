@@ -1,0 +1,50 @@
+1. Write a function called greet that takes a name as a parameter and logs a greeting message.
+
+2. Write a function that takes a string representing a number (e.g., "42") and converts it to an actual number. Then, check if the number is greater than 50 and return a corresponding message.
+
+3. Write a function that accepts a string with a number and converts it to a floating-point number. Return the result of multiplying the number by 2.
+
+4. Create a function that checks if the number is between 1 and 100 (inclusive). If it is, return "Valid", otherwise return "Invalid".
+
+5. Write a function that takes a grade (between 0 and 100) and returns the letter grade: "A" for scores between 90 and 100, "B" for scores between 80 and 89, "C" for scores between 70 and 79, and "F" for scores below 70.
+
+6. Write a function called isEven that takes a number as a parameter and returns true if the number is even and false otherwise.
+
+7. Write a function that takes a string and checks if it contains only numbers. Return "Valid number" if the string contains only digits, otherwise return "Invalid number".
+
+8. Create a function that takes a string as an argument and returns "Vowel" if the string is a vowel (a, e, i, o, u) and "Not Vowel" if it is not.
+
+9. Create a function that takes a string representing a day of the week (e.g., "Monday", "Saturday") and returns "Weekday" if it is a weekday (Monday through Friday), and "Weekend" if it is a Saturday or Sunday.
+
+10. Write a function that takes a number as an argument and returns "High" if the number is greater than 100, "Medium" if the number is between 50 and 100, and "Low" if it is less than 50.
+
+11. Write a function that takes a string representing a month (e.g., "January", "August") and returns the season in which the month falls. Assume that "Winter" is from December to February, "Spring" is from March to May, "Summer" is from June to August, and "Fall" is from September to November.
+
+12. Write a function that takes a year as an argument and returns whether the year is a leap year. A year is a leap year if it is divisible by 4, but not divisible by 100 unless it is also divisible by 400.
+
+13. Write a function that takes a number as input and checks if the number is a multiple of 7 or 11. If it is, return "Multiple of 7 or 11", otherwise return "Not a multiple".
+
+14. Write a function called isDivisibleByBoth that takes a number and checks if it’s divisible by both 3 and 5.
+
+15. Create a function called timeToSeconds that takes two parameters, hours and minutes, and returns the total time in seconds.
+
+16. Create a function called ageInDays that takes a person’s age in years and returns their approximate age in days.
+
+17. Write a function factorial that takes a positive integer n and returns its factorial using a for loop.
+
+18. Write a function sumOfOddNumbers that takes a number n and returns the sum of all odd numbers from 1 to n.
+
+19. Write a function that takes a number and checks if it is a perfect number. A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding the number itself). For example, 6 is a perfect number because 1 + 2 + 3 = 6.
+
+20. Write a function that takes a 3 digit number and check whether number is Armstrong or not. example: 153 is 3 digit armstrong number
+
+21. Write a function that take a number and checks if it is a prime number or not. example: 5, 7 is prime numbers
+
+22. Write a function that take a number and checks if it is a pallindrom number or not. example: 35253, 5151515 is pallindrom number
+
+23. Write a JavaScript loop to calculate the digital root of a number without using arrays, objects, or strings. The digital root of a number is the single-digit value obtained by an iterative process of summing its digits until a single digit is reached.
+
+24. Write a JavaScript loop to print the first 10 numbers in the Fibonacci sequence, but instead of using arrays or recursion, store only the last two Fibonacci numbers in variables.
+
+25. Write a function that takes a number and checks if it is a perfect number. A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding the number itself). For example, 6 is a perfect number because 1 + 2 + 3 = 6.
+  
