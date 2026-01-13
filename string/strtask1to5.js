@@ -71,3 +71,27 @@ function capitalizeWords(str) {
 }
 
 console.log(isPalindrome("A man a plan a canal Panama")); 
+
+// 5. Write a function that returns the longest word in a sentence.
+// console.log(findLongestWord("I am learning JavaScript string methods")); // Output: "JavaScript"
+function findLongestWord(str) {
+    str  =str.toLowerCase().split(" ");
+    console.log(str[2]);
+    let  val = ''
+     
+     let count = 0;
+ for(let i=0;i<str.length;i++) {
+     
+     
+
+        if(str[i].length > count) {
+            count = str[i].length
+            val = str[i]
+        }
+        
+    
+    }
+    return val;
+
+}
+console.log(findLongestWord("I am learning JavaScript string methods"));
