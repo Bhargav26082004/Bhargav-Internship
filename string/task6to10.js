@@ -84,15 +84,15 @@ console.log(replaceSpaces("hello world", "_"));
     }
     return domain; 
 }
-
-function extractDomain(url) {
-    url = url.replace("https://", "").replace("http://", "");
-    let domain = url.split("/")[0];
-if (domain.startsWith("www.")) {
-   return domain.replace("www.", "");
-    }
+//  method 2 
+// function extractDomain(url) {
+//     url = url.replace("https://", "").replace("http://", "");
+//     let domain = url.split("/")[0];
+// if (domain.startsWith("www.")) {
+//    return domain.replace("www.", "");
+//     }
     
-}
+// }
 
 
 console.log(extractDomain("https://www.example.com/path?name=value"));
