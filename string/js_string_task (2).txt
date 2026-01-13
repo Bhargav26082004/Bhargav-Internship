@@ -1,0 +1,45 @@
+1. Write a function that takes a string as input and returns the string reversed.
+console.log(reverseString("hello")); // Output: "olleh"
+
+2. Create a function that counts the number of vowels in a string.
+console.log(countVowels("hello world")); // Output: 3
+
+3. Write a function that takes a sentence and returns the sentence with each word capitalized.
+console.log(capitalizeWords("hello world from javascript")); // Output: "Hello World From Javascript"
+
+4. Create a function that checks if a given string is a palindrome (reads the same forward and backward, ignoring spaces and case).
+console.log(isPalindrome("A man a plan a canal Panama")); // Output: true
+
+5. Write a function that returns the longest word in a sentence.
+console.log(findLongestWord("I am learning JavaScript string methods")); // Output: "JavaScript"
+
+6. Create a function that repeats a given string n times without using the .repeat() method.
+console.log(repeatString("abc", 3)); // Output: "abcabcabc"
+
+7. Write a function that removes duplicate characters from a string.
+console.log(removeDuplicates("javascript")); // Output: "javscript"
+
+8. Create a function that counts the number of occurrences of a specific character in a string.
+console.log(countOccurrences("hello world", "l")); // Output: 3
+
+9. Write a function that replaces all spaces in a string with a specific character (e.g., replace spaces with underscores).
+console.log(replaceSpaces("hello world", "_")); // Output: "hello_world"
+
+10. Write a function that extracts the domain name from a given URL string.
+console.log(extractDomain("https://www.example.com/path?name=value")); // Output: "example.com"
+
+11. Write a function that takes a sentence as input and converts it to camelCase format.
+console.log(toCamelCase("hello world from JavaScript")); // Output: "helloWorldFromJavaScript"
+
+12. Write a function that finds and returns the most frequent character in a string. If multiple characters have the same frequency, return any one of them.
+console.log(mostFrequentCharacter("javascript")); // Output: "a" (or another character that appears most frequently)
+
+13. Write a function that converts a numeric string (e.g., "1234") into words
+console.log(numberToWords("1234")); // Output: "one thousand two hundred thirty-four"
+
+14. Write a function that performs basic string compression using the counts of repeated characters. If the compressed string is not shorter than the original, return the original string.
+console.log(compressString("aabcccccaaa")); // Output: "a2b1c5a3"
+
+15. Write a function that removes duplicate words from a sentence.
+console.log(removeDuplicateWords("this is is a test test")); // Output: "this is a test"
+
