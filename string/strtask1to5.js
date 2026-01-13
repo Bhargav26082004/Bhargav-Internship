@@ -95,3 +95,4 @@ function findLongestWord(str) {
 
 }
 console.log(findLongestWord("I am learning JavaScript string methods"));
+
