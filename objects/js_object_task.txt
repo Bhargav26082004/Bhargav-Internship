@@ -1,0 +1,29 @@
+Count how many keys are in an object.
+
+Change all values in an object to uppercase.
+
+Swap keys and values in an object.
+
+1. Merge two objects into one (new object).
+
+2. Find the key that has a certain value.
+
+3. Check if an object has no keys.
+
+4. Add all the numbers in an object’s values.
+
+5. Delete all keys where the value is null or undefined.
+
+6. Get a nested value from an object like obj.user.name.first.
+
+7. Change a nested value inside an object.
+
+8. Find the length of an array that’s inside an object like obj.friends.
+
+9. Add a value to an array that’s inside an object.
+
+10. Rename some keys in an object using a mapping.
+
+11. Turn "a=1,b=2" into an object like { a: "1", b: "2" }.
+
+12. Flatten one level of a nested object (e.g. { a: { b: 1 } } → { 'a.b': 1 }).
