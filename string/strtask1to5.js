@@ -76,7 +76,7 @@ console.log(isPalindrome("A man a plan a canal Panama"));
 // console.log(findLongestWord("I am learning JavaScript string methods")); // Output: "JavaScript"
 function findLongestWord(str) {
     str  =str.toLowerCase().split(" ");
-    console.log(str[2]);
+    
     let  val = ''
      
      let count = 0;

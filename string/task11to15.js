@@ -130,4 +130,4 @@ function removeDuplicateWords(str) {
     }
     return newstr.join(" ");
 }
-console.log(removeDuplicateWords("this is is a test test")); 
+console.log(removeDuplicateWords("this is is a test test is ")); 

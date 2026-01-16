@@ -40,7 +40,8 @@ function removeDuplicates(str) {
 function countOccurrences(str,char) {
    
       str = str.toLowerCase();
-    char = char.toLowerCase(); let count =0;
+    char = char.toLowerCase(); 
+    let count =0;
      
     for(let i=0;i<str.length;i++) {
         if(str[i]===char) {
@@ -96,20 +97,4 @@ console.log(replaceSpaces("hello world", "_"));
 
 console.log(extractDomain("https://www.example.com/path?name=value"));
 
-
-// 11. Write a function that takes a sentence as input and converts it to camelCase format.
-// console.log(toCamelCase("hello world from JavaScript"));
-//  // Output: "helloWorldFromJavaScript"
-
-
-
-  function toCamelCase(str) {
-    str = str.split(" ");
-        for(let i = 1;i<str.length;i++) {
-            str[i] = str[i][0].toUpperCase() + str[i].slice(1);
-
-        }
-  return str.join("");
-  }
-  console.log(toCamelCase("hello world from JavaScript"));
 
