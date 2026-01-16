@@ -1,10 +1,11 @@
 // Count how many keys are in an object.
-// let student = {
-//     name : "Bhargav",
-//     age : 21,
-//     marks :94,
-//     city : "ankleshwar"
-// }
+function countKey() {
+     let student = {
+    name : "Bhargav",
+    age : 21,
+    marks :94,
+    city : "ankleshwar"
+}
 let count = 0;
 for (const key in student ){
     
@@ -12,25 +13,31 @@ for (const key in student ){
     
     
 }
-console.log(count);
+return count 
+}
+console.log(countKey());
 
 // // Change all values in an object to uppercase.
-// let student = {
-//     name : "Bhargav",
-//     age : 21,
-//     marks :94,
-//     city : "ankleshwar"
-// }
+function valInUpper() {
+    let student = {
+    name : "Bhargav",
+    age : 21,
+    marks :94,
+    city : "ankleshwar"
+}
 for(let key in student) {
     if(typeof student[key] === "string") {
         student[key] = student[key].toUpperCase()
         
     }
-    console.log(student[key])
 }
+return student
 
+}
+console.log(valInUpper())
 // Swap keys and values in an object.
-let student = {
+function swapValKey() {
+    let student = {
     name : "Bhargav",
     age : 21,
     marks :94,
@@ -47,14 +54,18 @@ for(let key in student ) {
     console.log("the new value is : ",student[key]);
 
 }
-// 1. Merge two objects into one (new object).
-// let employee = {
-//     name  : "bhargav",
-//     domain : "web dev",
-//     salary :  2000,
-//     city : "surat" ,
+}
+console.log(swapValKey());
 
-// }
+// 1. Merge two objects into one (new object).
+function Mergeobj() {
+    let employee = {
+    name  : "bhargav",
+    domain : "web dev",
+    salary :  2000,
+    city : "surat" ,
+
+}
 let intern  = {
     
     age : 21,
@@ -65,9 +76,11 @@ let vale =  {...employee,...intern}
 console.log(vale);
 let staff = Object.assign(employee,intern)
 console.log(staff)
-
+}
+console.log(Mergeobj());
 // 2. Find the key that has a certain value.
-let employee = {
+function findKey () {
+    let employee = {
     name  : "bhargav",
     domain : "web dev",
     salary :  2000,
@@ -88,8 +101,11 @@ for(let key in employee)
 }
 console.log(keyval(val))
 
+}
+console.log(findKey());
 // 3. Check if an object has no keys.
-let obj = {
+function objKeyExist() {
+    let obj = {
 
 }
 let isempty =true;
@@ -105,9 +121,12 @@ else {
     console.log("object has keys ");
 }
 
+}
+console.log(objKeyExist());
 
 // 4. Add all the numbers in an object’s values.
-let obj1 = {
+function sumofVal() {
+    let obj1 = {
     a :10,
     b:20,
     c:30,
@@ -115,9 +134,12 @@ let obj1 = {
 
 let sum = Object.values(obj1).reduce((acc,cur) => acc + cur ,0) 
 console.log(sum)
+}
+console.log(sumofVal());
 //  
 // 5. Delete all keys where the value is null or undefined.
-let cricket = {
+function deleteKeys() {
+    let cricket = {
     name : " virat",
     level : "international",
    
@@ -126,6 +148,7 @@ let cricket = {
  centuries : 85,
 
 }
+console.log(cricket);
 
 // for(let key in cricket ) {
 //     // if (cricket[key] === null || cricket [key] === undefined) {
@@ -138,5 +161,7 @@ let cricket = {
 // and using object.from entries array is convert back to object 
     cricket = Object.fromEntries(Object.entries(cricket).filter(([,val]) => val != null ))
       
-console.log(cricket)
+ return cricket
+}
+console.log(deleteKeys());
 
