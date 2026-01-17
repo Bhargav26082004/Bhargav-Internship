@@ -9,7 +9,7 @@ function hello() {
 hello().then((res) => {
   console.log(res);
 });
-console.log(hello());
+
 
 // task 2 = Goal: Create a function checkEven(number) that returns a Promise.
 
