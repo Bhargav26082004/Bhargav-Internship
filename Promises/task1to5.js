@@ -64,30 +64,30 @@ fakeApiCall()
 
 // 	Call them in sequence using .then() chaining.
 function startTask() {
-  return new Promise((resolve, reject) => {
+  return new Promise((res, rej) => {
     setTimeout(() => {
-      resolve("Task started");
+      res("Task started");
     }, 1000);
   });
 }
 
 function processTask() {
-  return new Promise((resolve, reject) => {
+  return new Promise((res, rej) => {
     setTimeout(() => {
-      resolve("Task in progress");
+      res("Task in progress");
     }, 1000);
   });
 }
 
 function endTask() {
-  return new Promise((resolve, reject) => {
+  return new Promise((res,rej) => {
     setTimeout(() => {
-      resolve("Task completed");
+      res("Task completed");
     }, 1000);
   });
 }
 
-// Promise chaining
+
 startTask()
   .then((res) => {
     console.log(res);
