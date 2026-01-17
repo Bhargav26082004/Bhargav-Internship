@@ -1,0 +1,35 @@
+task 1 = Create a function that returns a Promise and resolves after 2 seconds with the message "Hello after delay".
+
+
+task 2 = Goal: Create a function checkEven(number) that returns a Promise.
+
+	Resolve with "Even number" if even.
+
+	Reject with "Odd number" if odd.
+
+
+task 3 = Simulate a fake API call that takes 3 seconds and returns a list of users
+
+
+task 4 = Create 3 functions:
+
+	startTask() → resolves "Task started"
+
+	processTask() → resolves "Task in progress"
+
+	endTask() → resolves "Task completed"
+	
+	Call them in sequence using .then() chaining.
+
+
+task 5=Step 1: User places an order — takes 1 second.
+
+	Step 2: Check if the item is in stock — takes 2 seconds.
+
+		If item is "pizza", it's available.
+
+		For any other item, reject with "Item not available".
+
+	Step 3: Process payment — takes 1.5 seconds.
+
+	Step 4: Confirm order.
