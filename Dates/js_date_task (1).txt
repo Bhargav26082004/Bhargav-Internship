@@ -1,0 +1,19 @@
+1. Create a JavaScript program that displays:
+   Today’s full date and time using toString()
+   Just the date using toDateString()
+   Just the time using toTimeString()
+
+2 input 2025-06-12T10.30.25
+  output 12 june, 2025 10.30 AM
+
+3 input 2025-06-12T10.30.25
+  output 12 june, 2025 4.00 PM
+
+4 input Today: 12 June 2025
+  output 1 : 7 days from now: 19 June 2025
+  output 2 : 30 days ago: 13 May 2025
+
+5 Convert UTC Time to IST and AUS
+  input = "2025-06-12T10:30:25Z"; 
+  output 1 : "12 June, 2025, 4:00 PM" (IST)
+  output 2 : "12 June, 2025, 8:00 PM" (AUS)
